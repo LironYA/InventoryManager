@@ -2,4 +2,6 @@
     <string name="app_name">InventoryManager</string>
     <string name="name">Name</string>
     <string name="insert_a_new_item">Insert a new item</string>
+    <string name="price">Price</string>
+    <string name="supplier_information">Supplier information</string>
 </resources>
