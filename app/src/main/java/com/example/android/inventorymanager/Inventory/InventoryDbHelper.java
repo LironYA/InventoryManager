@@ -11,11 +11,11 @@ public class InventoryDbHelper extends SQLiteOpenHelper {
 
     private final String SQL_CREATE_ENTRIES = "CREATE TABLE " + InventoryEntry.TABLE_NAME + "("
             + InventoryEntry._ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
-            + InventoryEntry.COLUMN_PRODUCT_NAME + " TEXT, "
-            + InventoryEntry.COLUMN_PRICE + " INTEGER, "
-            + InventoryEntry.COLUMN_QUANTITY +  " INTEGER, "
-            + InventoryEntry.COLUMN_SUPPLIER_NAME + " TEXT, "
-            + InventoryEntry.COLUMN_PHONE + " INTEGER);";
+            + InventoryEntry.COLUMN_PRODUCT_NAME + " TEXT NOT NULL, "
+            + InventoryEntry.COLUMN_PRICE + " INTEGER NOT NULL, "
+            + InventoryEntry.COLUMN_QUANTITY +  " INTEGER NOT NULL, "
+            + InventoryEntry.COLUMN_SUPPLIER_NAME + " TEXT NOT NULL, "
+            + InventoryEntry.COLUMN_PHONE + " TEXT NOT NULL);";
     public InventoryDbHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }

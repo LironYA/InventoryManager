@@ -70,7 +70,7 @@ public class EditorActivity extends AppCompatActivity {
         // Create a ContentValues object where column names are the keys,
         // and pet attributes from the editor are the values.
         ContentValues values = new ContentValues();
-        values.put(InventoryEntry.COLUMN_SUPPLIER_NAME, supplierName);
+        values.put(InventoryEntry.COLUMN_PRODUCT_NAME, supplierName);
         values.put(InventoryEntry.COLUMN_PRICE, price);
         values.put(InventoryEntry.COLUMN_QUANTITY, quantity);
         values.put(InventoryEntry.COLUMN_SUPPLIER_NAME, supplierNameString);

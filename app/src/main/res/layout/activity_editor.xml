@@ -79,7 +79,6 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_below="@+id/supplier_name"
-            android:descendantFocusability="beforeDescendants"
             android:hint="Supplier phone number"
             android:imeOptions="actionDone"
             android:inputType="text"
