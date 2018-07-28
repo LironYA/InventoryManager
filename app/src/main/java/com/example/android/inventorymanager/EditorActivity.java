@@ -8,7 +8,6 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.text.TextUtils;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -16,29 +15,11 @@ import com.example.android.inventorymanager.Inventory.InventoryContract.Inventor
 import com.example.android.inventorymanager.Inventory.InventoryDbHelper;
 
 public class EditorActivity extends AppCompatActivity {
-    /**
-     * EditText field to enter the item name
-     */
+
     private EditText mEditText_name;
-
-    /**
-     * EditText field to enter the item price
-     */
     private EditText mEditText_price;
-
-    /**
-     * EditText field to enter the item quantity
-     */
     private EditText mEditQuantity;
-
-    /**
-     * EditText field to enter the supplier name
-     */
     private EditText mSupplier_name;
-
-    /**
-     * EditText field to enter the supplier phone
-     */
     private EditText mSupplier_phone;
 
     @Override
@@ -98,7 +79,7 @@ public class EditorActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
-        if(id == R.id.action_save) {
+        if (id == R.id.action_save) {
             InsertItem();
             finish();
             return true;

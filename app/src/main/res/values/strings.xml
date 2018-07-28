@@ -4,4 +4,12 @@
     <string name="insert_a_new_item">Insert a new item</string>
     <string name="price">Price</string>
     <string name="supplier_information">Supplier information</string>
+    <string name="product_information">Product information</string>
+    <string name="quantity">Quantity</string>
+    <string name="supplier_name">Supplier name</string>
+    <string name="supplier_phone_number">Supplier phone number</string>
+    <string name="inventory_summery">Inventory summery</string>
+    <string name="items_text">Items text</string>
+    <string name="table_contains">The inventory table contains</string>
+    <string name="items">items.</string>
 </resources>
